@@ -237,7 +237,7 @@ footer .footer-rights {
     justify-content: center;
     align-items: center;
     width: 21vw;
-    height: 70vh;
+    height: 80vh;
     border: 2px solid #9c97f1;
     border-radius: 10px;
     margin: 15px;
@@ -375,6 +375,12 @@ footer .footer-rights {
 
 @media screen and (max-width:1500px) {
 
+    body{
+        width: 100vw;
+        height: 100vh;
+        scroll-behavior: none;
+    }
+
     nav{
         flex-direction: column;
         width: 100%;
@@ -398,7 +404,7 @@ footer .footer-rights {
         grid-template-columns: repeat(2, 1fr);
         padding: 30px 250px;}
     .container{
-        height: 60vh;
+        height: 70vh;
         width: 25vw;
     }
     .container img {
@@ -418,7 +424,7 @@ footer .footer-rights {
     }
 
     .container{
-        height: 50vh;
+        height: 60vh;
         width: 25vw;
     }
 
@@ -439,7 +445,7 @@ footer .footer-rights {
     }
 
     .container{
-        height: 45vh;
+        height: 50vh;
         width: 30vw;
     }
 
